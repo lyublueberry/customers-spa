@@ -1,9 +1,7 @@
 import instance from './instance'
 
-import authModule from './auth'
-import filmsModule from './films'
+import UsersModal from './users'
 
 export default {
-  auth: authModule(instance),
-  films: filmsModule(instance)
+  users: UsersModal(instance),
 }

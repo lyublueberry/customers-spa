@@ -11,8 +11,6 @@
               <p>{{ getFullName(user) }}</p>
     </router-link>
 
-
-
       </li>
     </ul>
   </div>

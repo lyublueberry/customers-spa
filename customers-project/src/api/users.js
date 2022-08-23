@@ -1,10 +1,10 @@
 export default function(instance) {
     return {
-        get(id){
-            return instance.post(`users/${id}`, payload)
+        getIdUser(id){
+            return instance.get(`users/${id}`)
         },
-        getAll(payload){
-            return instance.post('users', payload)
+        getAllUsers(){
+            return instance.get('users')
         }
     }
 }

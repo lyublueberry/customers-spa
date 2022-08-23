@@ -34,9 +34,6 @@ export default {
   name: 'UserCard',
   data() {
     return {
-      post: null,
-      photo: null,
-      album: null,
       swiperOption: {
         slidesPerView: 2,
         spaceBetween: 10,
@@ -69,10 +66,6 @@ export default {
     SwiperSlide,
   },
   methods: {
-    aaa(albums){
-      const aa = albums.filter(albumU => albumU.userId === this.$route.params.id);
-      console.log(aa);
-    }
   },
 }
 </script>
